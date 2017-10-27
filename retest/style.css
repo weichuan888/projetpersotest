@@ -13,30 +13,34 @@
 }
 
 .logo{
-  display: inline-block;
+
+  width: 600px;
+  float: left;
+  margin-left: 300px;
 }
 
 .adresse {
   border: 2px solid blue;
-  width: 100%;
-  display: inline-block;
+  width: 800px;
+
+  float : left;
+  margin-left: 600px;
+  margin-top: -200px;
   text-align: center;
   box-sizing: border-box;
   box-shadow: 5px 5px 5px black;
 
 }
 
-img {
-  width: 100%;
-}
+
 
 .button {
-  margin-top: 20px;
+
 }
 .rubrique {
   float: left;
-  margin-left: 3%;
-  margin-top: 5%;
+  margin-left: 7%;
+  margin-top: 30px;
   border: 2px solid red;
   text-align: center;
   background-color: black;
@@ -56,78 +60,65 @@ img {
 }
 
 .menu {
-
-  background-color: #74BFFF;
-  margin-right: 1px;
-  margin-top: 20px;
-  padding-bottom: 20px;
-
-}
-
-.texte {
   margin-top: 10px;
+  background-color: grey;
+  position: relative;
+
 }
 
-.sushi img {
-  width: 100%;
-}
-
-.texte {
-
+.menu .texte {
+  border: 2px solid yellow;
   text-align: center;
-  width: 90%;
+  margin-right: 90px;
+  margin-top: -113px;
+  width: 1000px;
   line-height: normal;
-
 }
 
 
 .plats {
-
-  height: 250px;
-  background: linear-gradient(#74BFFF,#84FF7C);
+  border: 2px solid blue;
+  height: 700px;
 }
 
 .case {
   border: 2px solid blue;
   float: left;
-  width: 40%;
-  margin-left: 30%;
-  margin-top : 5%;
+  width: 400px;
+  margin-left: 10%;
+  height: 500px;
+  margin-top : 10px;
   border-radius: 80px;
   text-align: center;
-  font-size: 25px;
+  padding-top: 150px;
+  font-size: 50px;
 
 }
-.plats h5 {
 
-}
-h5~p {
-  font-size: 25px;
-
-}
 .suite {
-  border-top: 2px solid black;
+  border: 2px solid black;
   width: auto;
-  height: 550px;
+  height: 300px;
   text-align: center;
+
   background: linear-gradient(#84FF7C, #82ADFF);
 
 
 }
 
 .suite h4 {
-  font-size: 40px;
-  padding-top: 30px;
+  font-size: 50px;
+  padding-top: 40px;
   font-weight: bold;
   font-family: helvetica, sans-serif;
 }
 
 .suite p {
   font-size: 20px;
-  padding-top: 10px;
-  padding-left: 5%;
-  padding-right: 5%;
-
+  padding-top: 30px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 2px;
   font-family: cursive, serif;
 }
 
@@ -145,7 +136,7 @@ footer {
 /*ecran tablette */
 
 
-/*@media screen and (max-width: 978px)  {
+@media screen and (max-width: 978px)  {
   .logo{
     width: 100%;
   }
@@ -160,6 +151,6 @@ footer {
 /*ecran smartphone */
 
 
-/*@media screen and (max-width: 370px) {
+@media screen and (max-width: 370px) {
 
-}*/
+}
